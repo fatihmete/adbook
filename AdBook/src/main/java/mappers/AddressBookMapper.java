@@ -24,6 +24,7 @@ public class AddressBookMapper {
 			addressBook.setUpdated_at(rSet.getString("updated_at"));
 			addressBookList.add(addressBook);
 		}
+
 		return addressBookList;
 	}
 }
